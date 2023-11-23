@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>K R Public School</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #customers tr:hover {background-color: #ddd;}
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
+
+      .slider-container {
+      position: relative;
+      max-width: 100%;
+      max-height: 50%;
+      margin: auto;
+      overflow: hidden;
+    }
+    .sld{
+      width: 100%;
+      height: auto;
+    }
+    .slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      min-width: 100%;
+    }
+
+    /* Navigation buttons */
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+      </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container mb-3">
+          <div class="d-flex align-items-center">
+            <div class="site-logo mr-auto">
+              <a href="index.html" class="text-primary">
+                K R Public School 
+                <span class="text-primary" style="font-size: 20px;">CBSE
+                </span></a>
+            </div>
+            <div class="site-quick-contact d-none d-lg-flex ml-auto ">
+              <div class="d-flex site-info align-items-center mr-5">
+                <span class="block-icon mr-3">
+                  <span class="icon-map-marker text-yellow"></span>
+                </span>
+                <span>Karamadai, Coimbatore - 641104 </span>
+              </div>
+              <!-- <div class="d-flex site-info align-items-center">
+                <span class="block-icon mr-3"><span class="icon-clock-o"></span></span>
+                <span>Sunday - Friday 8:00AM - 4:00PM <br> Saturday CLOSED</span>
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+          <div class="menu-wrap d-flex align-items-center">
+            <span class="d-inline-block d-lg-none"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-black"></span></a></span>
+
+              
+
+              <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
+                
+                <ul class="site-menu main-menu js-clone-nav mr-auto ">
+                  <li class="active"><a href="#home" class="nav-link">Home</a></li>
+                  <li><a href="#about" class="nav-link">About</a></li>
+                  <li><a href="#admission" class="nav-link">Admissions</a></li>
+                  <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                  <li><a href="#career" class="nav-link">Careers</a></li>
+                  <li><a href="#contact" class="nav-link">Contact</a></li>
+                  <li><a href="#mand" class="nav-link">Mandatory Disclosure</a></li>
+                </ul>
+              </nav>
+
+              <div class="top-social ml-auto">
+                <a href="https://www.facebook.com/krmschoolkaramadai/" target="_blank"><span class="icon-facebook text-teal"></span></a>
+                <a href="https://www.facebook.com/krmschoolkaramadai/" target="_blank"><span class="icon-twitter text-success"></span></a>
+                <a href="https://www.facebook.com/krmschoolkaramadai/" target="_blank"><span class="icon-linkedin text-yellow"></span></a>
+              </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div id="home" class="ftco-blocks-cover-1">
+      <div class="site-section-cover overlay">
+        <div class="container">
+          <div class="row align-items-center ">
+            <div class="col-md-5 mt-5 pt-5">
+              <!-- <span class="text-cursive h5 text-red">Welcome To Our Website</span> -->
+              <h1 class="mb-3 font-weight-bold text-teal">
+                You have to dream before your dreams can come true
+              </h1>
+              <!-- <p>Amazing Playground for your kids</p> -->
+              <p class="mt-5"><a href="#" class="btn btn-primary py-4 btn-custom-1">Learn More</a></p>
+            </div>
+            <div class="col-md-6 ml-auto align-self-end">
+              <img src="images/kid_transparent.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-md-0">
+            <!-- <img src="images/img_1.jpg" alt="Image" class="img-fluid"> -->
+            <span class="text-cursive h5 text-red">About Us</span>
+            <!-- <h3 class="text-black">Bring Fun Life To Your Kids</h3> -->
+            <p style="text-align: justify"><span>
+              KR Public School, in collaboration with Velammal Bodhi Campus, prioritizes student safety and holistic development. The campus boasts a cutting-edge CCTV Surveillance System, ensuring a secure environment. Transportation safety is paramount, with implemented speed control measures. The school's commitment to responsibility and safety is evident. Beyond safety, KR Public School focuses on comprehensive student development, offering diverse extracurricular activities like Western and Classical music, yoga, karate, skating, singing, and more. These activities foster creativity, physical fitness, and personal growth, creating a vibrant educational experience. The school aims to cultivate well-rounded individuals, preparing them for success beyond academics.
+            </span></p>
+
+            <p class="mt-5"><a href="#" class="btn btn-warning py-4 btn-custom-1">More About Us</a></p>
+          </div>
+          <div class="col-md-5 ml-auto pl-md-5">
+            <div class="span4">
+
+              <!-- Latest Circulars ERP start //-->
+              <h2 style="background: #000000;padding: 12px;border-bottom: 1px solid #fff; color:#fff;margin-bottom:0px;font-weight:100;font-size: 20px;"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Latest Circulars</h2>
+              <div class="main-content-block-entry">
+                <!--height="420px"-->
+                <table id="customers">
+                  <tr>
+                    <td bgcolor="#999999">28 Jun 2023</td>
+                    <td>TIME TABLE PT-1 FOR CLASSES IV & V</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#999999">28 Jun 2023</td>
+                    <td>TIME TABLE PT-1 FOR CLASSES VI - X</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#999999">19 Jul 2023</td>
+                    <td>INDIAN OLYMPIAD QUALIFIER MATHEMATICS</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#999999">18 Jul 2023</td>
+                    <td>INTERNATIONAL CHEMISTRY QUIZ & GREEN ENVIRO QUIZ</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#999999">23 Jun 2023</td>
+                    <td>GREEN OLYMPIAD</td>
+                  </tr>
+                </table>
+              </div>
+              <!-- Latest Circulars ERP end //-->
+      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="admission" class="site-section">
+      <div class="container">
+        <h3 class="text-black">Admissions</h3>
+        <p style="text-align: justify"><span>
+        Welcome to KR Public School, where we prioritize academic excellence and holistic development. Our admission process reflects our commitment to providing a nurturing and enriching educational environment.
+
+At KR Public School, we seek students who are not just academically inclined but are also eager to engage in a diverse range of extracurricular activities. Our admissions are open to students from all backgrounds, fostering a dynamic and inclusive community.
+
+To initiate the admission process, prospective parents and students can visit our school campus to gain insights into our state-of-the-art facilities, meet our dedicated faculty, and understand our unique approach to education. We believe in a collaborative partnership between parents, students, and educators to ensure the overall development of each child.
+
+Our admission criteria include a comprehensive assessment of a student's academic performance, along with an evaluation of their extracurricular interests and potential. We value qualities such as curiosity, creativity, and a positive attitude towards learning.
+
+At KR Public School, we aim to create a supportive and inspiring learning environment where students not only excel academically but also develop essential life skills, ethical values, and a sense of social responsibility.
+
+Join us on this educational journey, where every student is encouraged to explore, learn, and grow into a well-rounded individual ready to face the challenges of the future. Your child's academic success and personal development are our top priorities at KR Public School.
+      </span></p>
+
+
+
+
+
+      </div>
+    </div>
+    
+    <div class="site-section bg-info">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <!-- <span class="text-cursive h5 text-red d-block"></span> -->
+            <h2 class="text-white">RECENT ACTIVITIES</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="package text-center bg-white">
+              <span class="img-wrap">
+                <img src="C:\\Users\\Dell\\Downloads\\kiddy-master\\kiddy-master\\images\\event1.jpg" alt="Image" class="img-fluid">
+              </span>
+              <h3 class="text-teal">Indoor Games Tournament</h3>
+              <p>KR public School hosts diverse indoor games, promoting fun, teamwork, and competition.</p>
+              <p><a href="#" class="btn btn-primary btn-custom-1 mt-4">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="package text-center bg-white">
+              <span class="img-wrap"><img src="C:\\Users\\Dell\\Downloads\\kiddy-master\\kiddy-master\\images\\event2.jpg" alt="Image" class="img-fluid"></span>
+              <h3 class="text-success">Team Building Activity</h3>
+              <p>Build teamwork through engaging activities, enhancing communication and collaboration skills.</p>
+              <p><a href="#" class="btn btn-warning btn-custom-1 mt-4">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="package text-center bg-white">
+              <span class="img-wrap"><img src="C:\\Users\\Dell\\Downloads\\kiddy-master\\kiddy-master\\images\\event3.jpg" alt="Image" class="img-fluid"></span>
+              <h3 class="text-danger">Academic Achievers</h3>
+              <p>
+                Honoring academic excellence, acknowledging outstanding achievement in prestigious awards.</p>
+              <p><a href="#" class="btn btn-success btn-custom-1 mt-4">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="text-cursive h5 text-red d-block">Pricing Plan</span>
+            <h2 class="text-black">Our Pricing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quis cupiditate fugit, voluptatibus ullam, non laboriosam alias veniam, ex inventore iure sed?</p>
+          </div>
+          <div class="col-md-4">
+            <div class="pricing teal">
+              <span class="price">
+                <span>$30</span>
+              </span>
+              <h3>Silver Pack</h3>
+              <ul class="ul-check list-unstyled teal">
+                <li>Lorem ipsum dolor sit amet</li>  
+                <li>Consectetur adipisicing elit</li>
+                <li>Nemo quis cupiditate</li>
+              </ul>
+              <p><a href="#" class="btn btn-teal btn-custom-1 mt-4">Buy Now</a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="pricing danger">
+              <span class="price">
+                <span>$70</span>
+              </span>
+              <h3>Golden Pack</h3>
+              <ul class="ul-check list-unstyled danger">
+                <li>Lorem ipsum dolor sit amet</li>  
+                <li>Consectetur adipisicing elit</li>
+                <li>Nemo quis cupiditate</li>
+              </ul>
+              <p><a href="#" class="btn btn-danger btn-custom-1 mt-4">Buy Now</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    <div id="gallery" class="site-section alert-dark">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <!-- <span class="text-cursive h5 text-red d-block">Gallery</span> -->
+            <h2 class="text-black">Gallery</h2>
+          </div>
+        </div>
+        <div class="row mb-auto">
+          <div class="col-md-12">
+            <div class="slider-container">
+              <div class="slider">
+                <div class="slide"><img src="images/gallery/1.jpg" alt="Slide 1" class="sld"></div>
+                <div class="slide"><img src="images/gallery/2.jpg" alt="Slide 2" class="sld"></div>
+                <div class="slide"><img src="images/gallery/3.jpg" alt="Slide 3" class="sld"></div>
+                <div class="slide"><img src="images/gallery/4.jpg" alt="Slide 4" class="sld"></div>
+                <div class="slide"><img src="images/gallery/5.jpg" alt="Slide 5" class="sld"></div>
+                <div class="slide"><img src="images/gallery/6.jpg" alt="Slide 6" class="sld"></div>
+                <div class="slide"><img src="images/gallery/7.jpg" alt="Slide 7" class="sld"></div>
+                <div class="slide"><img src="images/gallery/8.jpg" alt="Slide 8" class="sld"></div>
+              </div>
+              <div class="prev" onclick="prevSlide()">&#10094;</div>
+              <div class="next" onclick="nextSlide()">&#10095;</div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <span class="text-teal h2 d-block">500+</span>
+                <span>Happy Parents</span>
+              </div>
+              <div class="col-lg-3 text-center">
+                <span class="text-yellow h2 d-block">20+</span>
+                <span>Certified Teachers</span>
+              </div>
+              <div class="col-lg-3 text-center">
+                <span class="text-success h2 d-block">20</span>
+                <span>Year Experienced Team</span>
+              </div>
+              <div class="col-lg-3 text-center">
+                <span class="text-danger h2 d-block">1000+</span>
+                <span>Successful Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section">
+      <div class="container">
+        <h3 class="text-black">Careers</h3>
+        <p style="text-align: justify"><span>
+          Embark on a fulfilling career journey with us at KR Public School, where we believe in nurturing not only academic excellence but also the professional aspirations of our educators and staff. Our commitment to creating an exceptional learning environment extends to providing a supportive and rewarding workplace for individuals passionate about education.
+
+          As a part of our team, you'll have the opportunity to contribute to the growth and development of students, shaping future leaders and thinkers. We value diversity, creativity, and dedication, fostering an inclusive atmosphere where every team member's unique skills and perspectives are appreciated.
+          
+          We understand that the success of our institution relies on the expertise and dedication of our staff. Therefore, we encourage continuous professional development and provide opportunities for career advancement. Our collaborative culture ensures that your contributions are recognized and celebrated.
+          
+          Whether you're an experienced educator, administrator, or someone eager to make a difference in the field of education, KR Public School welcomes individuals who share our vision of excellence and commitment to holistic learning. Join us in creating an educational environment where both students and staff thrive, realizing their full potential.
+          
+          Explore a rewarding career with KR Public School, where your passion for education meets a supportive and inspiring professional journey. Together, let's shape the future of education and empower the next generation of leaders.
+      </span></p>
+      </div>
+    </div>
+
+    <!-- <div class="site-section py-5 bg-warning">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 d-flex">
+          <h2 class="text-white m-0">Bring Fun Life To Your Kids</h2>
+          <a href="#" class="btn btn-primary btn-custom-1 py-3 px-5 ml-auto">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="footer-heading mb-3">About Us</h2>
+                <p class="mb-5">Dedicated to education, fostering growth, and shaping successful, well-rounded individuals.</p>
+
+                <h2 class="footer-heading mb-4">Newsletter</h2>
+                <form action="#" class="d-flex" class="subscribe">
+                  <input type="text" class="form-control mr-3" placeholder="Email">
+                  <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+          </div>
+          <div class="col-lg-8 ml-auto">
+            <div class="row">
+              <div class="col-lg-4 ml-auto">
+                <h2 class="footer-heading mb-4">Mandatory Disclosure</h2>
+                <ul class="list-unstyled">
+                  <li><a href="pdf/KRP_Trust_deed.pdf" target="_blank">Trust deed</a></li>
+                  <li><a href="pdf/KRP_Recognition.pdf" target="_blank">Recognition</a></li>
+                  <li><a href="pdf/KRP_Fire_certificate.pdf" target="_blank">Fire Certificate</a></li>
+                  <li><a href="pdf/KRP_Sanitary_Certificate.pdf" target="_blank">Sanitary Certificate</a></li>
+                  <li><a href="pdf/KRP_Academic_Calendar.pdf" target="_blank">Academic Calendar</a></li>
+                  <li><a href="pdf/KRP_List_of_PTA.pdf" target="_blank">List of PTA</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <h2 class="footer-heading mb-4">Mandatory Disclosure</h2>
+                <ul class="list-unstyled">
+                  <li><a href="pdf/KRP_NOC.pdf" target="_blank">NOC</a></li>
+                  <li><a href="pdf/KRP_Form_D.pdf" target="_blank">Form D</a></li>
+                  <li><a href="pdf/KRP_DEO_certificate.pdf" target="_blank">DEO Certificate</a></li>
+                  <li><a href="pdf/KRP_FEES_STRUCTURE.pdf" target="_blank">Fees Structure</a></li>
+                  <li><a href="pdf/KRP_LIST_OF_SCM.pdf" target="_blank">List of SCM</a></li>
+                  <li><a href="pdf/KRP_Self_declaration.pdf" target="_blank">Self declaration</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Harish <i class="icon-heart text-danger" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank" ></a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      const slider = document.querySelector('.slider');
+      const slides = document.querySelectorAll('.slide');
+      let currentIndex = 0;
+    
+      function nextSlide() {
+        if (currentIndex < slides.length - 1) {
+          currentIndex++;
+        } else {
+          currentIndex = 0;
+        }
+        updateSlider();
+      }
+    
+      function prevSlide() {
+        if (currentIndex > 0) {
+          currentIndex--;
+        } else {
+          currentIndex = slides.length - 1;
+        }
+        updateSlider();
+      }
+    
+      function updateSlider() {
+        const translateValue = -currentIndex * 100 + '%';
+        slider.style.transform = 'translateX(' + translateValue + ')';
+      }
+    
+      // Automatic transition
+      setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    </script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script> -->
+
+  </body>
+
+</html>
+
